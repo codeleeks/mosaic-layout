@@ -13,3 +13,8 @@ grid로 배치하는데, `grid-auto-row`를 `1px` 혹은 `0.1rem` 등과 같이 
 이미지의 가로길이를 동일하게 만들기 위해서 `grid-template-cols: repeat(auto-fit, minmax([이미지의 최소 너비], 1fr))`으로 설정한다.
 
 그리고 `grid-row-end`에 `span [이미지의 높이]`를 줘서 각기 다른 높이를 갖게 한다.
+
+
+## 참고
+
+https://woo1031.vercel.app/article/grid%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C-mosaic-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EA%B5%AC%ED%98%84
