@@ -1,0 +1,16 @@
+@import './styles/container', './styles/_item';
+
+html,
+body {
+  width: 100%;
+}
+
+:root {
+  font-size: 12px;
+}
+
+.single-line-ellipse-box {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

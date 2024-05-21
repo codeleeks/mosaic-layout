@@ -1,0 +1,27 @@
+.mosaic-item {
+  header {
+    height: 70%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  article {
+    max-height: 20%;
+  }
+
+  footer {
+    max-height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    h4 {
+      padding-left: 0.5em;
+    }
+    img {
+      border-radius: 50%;
+    }
+  }
+}

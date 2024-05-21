@@ -1,0 +1,11 @@
+.max-container {
+  width: 88%;
+}
+.mosaic-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(236px, 1fr));
+  justify-content: center;
+  grid-auto-rows: .1rem;
+  column-gap: 1rem;
+  margin: 0 auto;
+}
